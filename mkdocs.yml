@@ -13,3 +13,8 @@ use_directory_urls: false
 
 nav:
 - Introduction: index.md
+- Goals: goals.md
+- Preamble: preamble.md
+- Environment design: design.md
+- Setup: setup.md
+- Exercise 1: exercise_one.md
