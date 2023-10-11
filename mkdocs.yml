@@ -1,0 +1,15 @@
+site_author: David Crooks
+site_description: Exercises for SOC Training Rig
+site_name: Exercises for SOC Training Rig
+
+theme:
+  name: material
+  font: false
+
+extra_css:
+  - stylesheets/fonts.css
+
+use_directory_urls: false
+
+nav:
+- Introduction: index.md
