@@ -1,8 +1,8 @@
 # Introduction
 
-- PORTAINERHOST
-- MISPHOST
-- OPENSEARCHHOST
+- [Portainer dashboard](PORTAINERHOST)
+- [MISP](MISPHOST)
+- [Opensearch](OPENSEARCHHOST)
 
 ## Portainer credentials
 - PORTAINERCREDS
