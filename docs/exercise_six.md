@@ -37,11 +37,16 @@ Having generated some logs using zeek, we're now going to explore MISP.
 15. We'll start by adding a "network" object. Go to Add Object, and start typing "network". Click on that option and you'll see another option dropdown - start typing "domain" and choose "domain:ip"
 ![MISP domainip](images/misp_8.png)
 16. This page lets us fill in all the information we have about given domain/ip. We can add:
-    - Hostname: webserver
 	- IP: (the IP you identified earlier)
 	- You might also add first seen/last seen as today
-17. It's good practice to put comments wherever you have the option to, so add comments both to the object itself and the individual attributes, then click Submit. You'll see a review of the information, then click "Create new object" if you're happy
+17. It's good practice to put comments wherever you have the option to, so add comments both to the object itself and the individual attributes, then click Submit. You'll see a review of the information, then click "Create new object" if you're happy. MISP will attempt to validate your entries; if it finds an issue it will alert you before you can proceed.
 ![MISP domainip](images/misp_9.png)
+18. You can now see the attributes in the main event page. Note that MISP has highlighted the date in red as these attributes have not been "published" yet; i.e. it will not be propagated to sharing groups, and the attributes will not be available via the API
+![MISP domainip](images/misp_10.png)
+19. MISP uses the idea of working on an "unpublished" event until it has been completed to a certain level: the full results of an initial analysis, for example, or attributes that have not been reviewed by a user with the rights to publish. This means that a team can work on an event safe in the knowledge that the attributes will not be published until a team leader, for example, has provided a cross check.
+20. To publish, click "Publish no email" on the left hand side. While we would normally inform users of a new event, we have no other users.
+21. If you return to the home screen and select the event again, you'll see that the dates attached to the attributes are no longer highlighted since the event has been published.
+22. You can also add additional objects - for example look for the "file" objects where you can add checksums and other file details.
 
 
 
