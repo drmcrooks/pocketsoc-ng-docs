@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise 1: Portainer
 
 In the first exercise, we'll explore the Portainer interface which acts as the orchestrator for this environment. 
 
@@ -12,7 +12,7 @@ In the first exercise, we'll explore the Portainer interface which acts as the o
 ![Portainer pocketsoc-ng](images/portainer_4.png)
 5. To access the terminal for a given container, click on the `>_` icon
 ![Portainer pocketsoc-ng](images/portainer_5.png)
-6. Feel free to explore the rest of the interface, which gives information on the deployment. You can always get back to the list of containers through the `Containers` link or `Stacks` -> `pocketsoc-ng` as above
+6. Explore the rest of the interface, which gives information on the deployment. You can always get back to the list of containers through the `Containers` link or `Stacks` followed by `pocketsoc-ng` as above
 
 
 
