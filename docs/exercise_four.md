@@ -16,3 +16,5 @@ cat payload
 md5sum payload
 ```
 5. This forms an extremely simple analysis, but gives us enough to go back to the Dashboards tab
+6. Before continuing, take a note of the IP address of the webserver, `dig webserver`
+7. If you would like to pull *benign* data from an external source into another payload file, also take a note of the checksum that is generated
